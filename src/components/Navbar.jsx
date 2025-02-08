@@ -57,7 +57,7 @@ const Navbar = () => {
 
         {/* "Connect with Me" Button for Desktop */}
         <div className="hidden sm:flex">
-          <Link to="3dportfolio/Cv/cv.pdf" target="_blank" rel="noopener noreferrer" >
+          <Link to="/Cv/cv.pdf" target="_blank" rel="noopener noreferrer" >
             <button className="bg-white text-primary font-bold px-4 py-2 rounded-lg hover:bg-gray-300 transition">
               Download my CV
             </button>
@@ -97,7 +97,7 @@ const Navbar = () => {
               ))}
               {/* "Connect with Me" Button for Mobile */}
               <li>
-                <Link to="/Cv/cv.pdf">
+                <Link to="/Cv/cv.pdf" target="_blank" rel="noopener noreferrer">
                   <button className="w-full bg-white text-primary font-bold px-4 py-2 rounded-lg hover:bg-gray-300 transition">
                     Connect with Me
                   </button>
