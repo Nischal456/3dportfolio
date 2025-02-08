@@ -97,7 +97,7 @@ const Navbar = () => {
               ))}
               {/* "Connect with Me" Button for Mobile */}
               <li>
-                <Link to="/contact">
+                <Link to="/Cv/cv.pdf">
                   <button className="w-full bg-white text-primary font-bold px-4 py-2 rounded-lg hover:bg-gray-300 transition">
                     Connect with Me
                   </button>
