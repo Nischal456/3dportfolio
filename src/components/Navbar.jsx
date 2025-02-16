@@ -99,7 +99,7 @@ const Navbar = () => {
               <li>
                 <Link to="/Cv/cv.pdf" target="_blank" rel="noopener noreferrer">
                   <button className="w-full bg-white text-primary font-bold px-4 py-2 rounded-lg hover:bg-gray-300 transition">
-                    Connect with Me
+                    Download My CV
                   </button>
                 </Link>
               </li>
