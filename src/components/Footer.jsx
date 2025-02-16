@@ -14,9 +14,9 @@ export default function Footer() {
           <nav className="my-4 md:my-0">
             <ul className="flex space-x-6">
               <li><a href="/" className="hover:text-gray-400">Home</a></li>
-              <li><a href="/about" className="hover:text-gray-400">About</a></li>
-              <li><a href="/work" className="hover:text-gray-400">Work</a></li>
-              <li><a href="/contact" className="hover:text-gray-400">Contact</a></li>
+              <li><a href="/" className="hover:text-gray-400">About</a></li>
+              <li><a href="/" className="hover:text-gray-400">Work</a></li>
+              <li><a href="/" className="hover:text-gray-400">Contact</a></li>
             </ul>
           </nav>
   
