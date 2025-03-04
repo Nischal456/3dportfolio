@@ -1,4 +1,5 @@
 import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
+import { navLinks } from "../constants";
 
 export default function Footer() {
     return (
@@ -6,7 +7,7 @@ export default function Footer() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
-            <h2 className="text-xl font-bold">Nischakography</h2>
+            <h2 className="text-xl font-bold">Nischal Shrestha</h2>
             <p className="text-sm text-gray-400">© {new Date().getFullYear()} All rights reserved.</p>
           </div>
   
