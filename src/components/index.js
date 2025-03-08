@@ -7,7 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-import Portfolio from './Portfolio';
+import Portfolio from "./components/Portfolio";
 
 export {
   Hero,
