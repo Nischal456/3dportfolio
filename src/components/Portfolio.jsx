@@ -98,4 +98,4 @@ const Portfolio = () => {
   );
 };
 
-export default SectionWrapper(Portfolio, "works");
+export default SectionWrapper(Portfolio, "portfolio");
