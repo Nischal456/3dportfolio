@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="hidden sm:flex">
           <Link to="/Cv/cv.pdf" target="_blank" rel="noopener noreferrer" >
             <button className="bg-white text-primary font-bold px-4 py-2 rounded-lg hover:bg-gray-300 transition">
-              Download my CV
+              View My CV
             </button>
           </Link>
 
@@ -99,7 +99,7 @@ const Navbar = () => {
               <li>
                 <Link to="/Cv/cv.pdf" target="_blank" rel="noopener noreferrer">
                   <button className="w-full bg-white text-primary font-bold px-4 py-2 rounded-lg hover:bg-gray-300 transition">
-                    Download My CV
+                    View My CV
                   </button>
                 </Link>
               </li>
